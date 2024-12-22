@@ -33,5 +33,6 @@ def leftmostBuildingQueries(self, heights: List[int], queries: List[List[int]]) 
             while pq and pq[0][0] < heights[i]:
                 res[pq[0][1]] = i
                 heapq.heappop(pq)
+                
 
         return res
