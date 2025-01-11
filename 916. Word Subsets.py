@@ -4,7 +4,7 @@
 
 # For example, "wrr" is a subset of "warrior" but is not a subset of "world".
 # A string a from words1 is universal if for every string b in words2, b is a subset of a.
-
+# 1400. Construct K Palindrome Strings
 # Return an array of all the universal strings in words1. You may return the answer in any order.
 def wordSubsets(self, words1: List[str], words2: List[str]) -> List[str]:
         counter = Counter()
